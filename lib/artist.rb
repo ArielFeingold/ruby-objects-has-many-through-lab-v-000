@@ -11,4 +11,10 @@ class Artist
     @songs << self
   end
 
+  def songs
+    
+  end
+
+
+
 end
