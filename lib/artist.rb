@@ -9,9 +9,9 @@ class Artist
     @songs = []
   end
 
-  def add_song(name)
+  def add_song(song)
     # binding.pry
-    @songs << self
+    @songs << song
     song.artist = self.name
   end
 
