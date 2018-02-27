@@ -6,4 +6,10 @@ class Doctor
     @name = name
     @appointments = []
   end
+
+  def appointments
+    @appointments
+  end
+
+  
 end
