@@ -16,5 +16,11 @@ class Doctor
     appointment.doctor = self
   end
 
+  def patients
+    self.appointments.collect { |appointment| appointment.patient}
+  end
+
+
+
 
 end
